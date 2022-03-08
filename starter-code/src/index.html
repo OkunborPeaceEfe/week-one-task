@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONRAMP-011-WEEK-ONE-TASK</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -14,26 +14,32 @@
             
             <div class="info">
                 <label for name>Your Name<span class="red">*</span></label>
-                <input class="form-group" type="text" required>
+                <input class="form-group" type="text" id="myFullName">
             <br><br>
            
                 <label for email>Your Email<span class="red">*</span></label>
-                <input  class="form-group1" type="email" required>
+                <input  class="form-group1" type="email" id="myEmail">
             <br><br>
             
                 <label for Activation Token>Activation Token<span class="red">*</span></label>
-                <input  class="form-group2" required>
+                <input type="text" class="form-group2" id ="activationToken">
                 <br></div><br>
             <div>
                 <div class="check">
                 <label for="Agree">You agree to the <span class="u"><u>privacy policy.</u></span> <span class="red">*</span></label>
-                <input type="checkbox" required><br><br><br>
-            </div>
-                <div class="move">
-                <input type="email" class="email"><br><br><br></div>
-                <br>
-                <div><button type="submit">Submit</button></div>
-            </div>
+               
+           
+            <input type="checkbox" name="checkbox" id="accept" value="yes"></input><br><br><br>
+        </div>
+                <div id="screen" ></div> <br> <br>
                 
+                <br>
+                <div><button type="submit" class="submit">Submit</button></div>
+        </form>   
+            </div>
+          <script src="script.js"></script> 
+
 </body>
+
+
 </html>

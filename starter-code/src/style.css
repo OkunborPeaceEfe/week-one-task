@@ -32,7 +32,7 @@ input{
     text-align: center;
 }   
 body{
-    background: url("./starter-code/src/img.png");
+    background: url("./img.png");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -93,6 +93,16 @@ label{
 
 }
 
+#screen{
+    margin-left: 180px;
+   background-color: white;
+   height: 35px;
+   width:320px;
+   color: red;
+   text-align: center;
+   font-family: 'Courier Prime', monospace;
+   font-size: 17px;
+   }
 
 
 
